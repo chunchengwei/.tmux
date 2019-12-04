@@ -19,8 +19,9 @@ To install, run the following from your terminal: (you may want to backup your
 existing `~/.tmux.conf` first)
 
 ```
+$ sudo apt-get install --assume-yes xclip  # this command to support copy paste function on tmux
 $ cd
-$ git clone https://github.com/gpakosz/.tmux.git
+$ git clone https://github.com/huiyi1990/.tmux.git
 $ ln -s -f .tmux/.tmux.conf
 $ cp .tmux/.tmux.conf.local .
 ```
